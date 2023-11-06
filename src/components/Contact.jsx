@@ -1,0 +1,50 @@
+import { BiSend } from "react-icons/bi";
+// import { RiSendPlaneLine } from "react-icons/ri";<BiSend />
+
+const Contact = () => {
+  return (
+    <section name="contact" className="w-full h-screen bg-purple text-white">
+      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+        <div className="pb-8 flex items-center  flex-col pt-16">
+          <p className="text-4xl font-bold inline ">Contact</p>
+          <p className="py-6 text-center">
+            Submit the form below to get in touch with me
+          </p>
+        </div>
+        <div className="flex justify-center items-center">
+          <form
+            action="https://getform.io/f/460a13c1-b3cf-47d3-99b1-ccdb178580a4"
+            method="POST"
+            className="flex flex-col w-full md:w-1/2"
+          >
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter your name"
+              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+            />
+            <input
+              type="text"
+              name="email"
+              placeholder="Enter your email"
+              className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+            />
+            <textarea
+              name="message"
+              placeholder="Enter your message"
+              rows="10"
+              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+            ></textarea>
+
+            <button className="text-gray-900 bg-lightgray px-6 py-3 my-8 mx-auto flex items-center  rounded-md hover:scale-110 duration-300">
+              Send It
+              <span className="ml-2">{<BiSend />}</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;
