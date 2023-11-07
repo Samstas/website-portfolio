@@ -24,7 +24,7 @@ const Portfolio = () => {
       name: "The Wild Oasis",
       src: oasis,
       gitHubCode: "https://github.com/Samstas/the-wild-oasis",
-      demoLink: "https://the-wild-oasis-peach.vercel.app",
+      demoLink: "https://sam-the-wild-oasis.netlify.app",
     },
   ];
 
