@@ -7,15 +7,24 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      name: "React Quiz",
       src: quiz,
+      gitHubCode: "https://github.com/Samstas/react-quiz",
+      demoLink: "https://react-quiz-steel.vercel.app/",
     },
     {
       id: 2,
+      name: "React Pizza",
       src: pizza,
+      gitHubCode: "https://github.com/Samstas/fast-react-pizza",
+      demoLink: "https://fast-react-pizza-eosin-chi.vercel.app/",
     },
     {
       id: 3,
+      name: "The Wild Oasis",
       src: oasis,
+      gitHubCode: "https://github.com/Samstas/the-wild-oasis",
+      demoLink: "https://the-wild-oasis-peach.vercel.app/dashboard",
     },
   ];
 
@@ -32,23 +41,35 @@ const Portfolio = () => {
         <Skills />
 
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-6 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, name, src, gitHubCode, demoLink }) => (
             <div key={id} className="rounded-lg">
               {/* PROJECT IMAGE  */}
               <img
                 src={src}
-                alt=""
+                alt={name}
                 className="rounded-md duration-200 hover:shadow-white "
               />
 
               {/* PROJECT BUTTONS AND INFO  */}
               <div className="flex items-center justify-center">
-                <button className="bg-indigo text-white rounded-lg w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105 hover:bg-purple">
-                  Demo
-                </button>
-                <button className="bg-indigo text-white  rounded-lg px-6 py-1 w-1/2 m-4 duration-200 hover:scale-105  hover:bg-purple">
-                  Code
-                </button>
+                <a
+                  target="_blank"
+                  href={demoLink}
+                  rel="noreferrer"
+                  title="Website"
+                  className="text-center bg-indigo text-white rounded-lg w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105 hover:bg-purple"
+                >
+                  <button>Demo</button>
+                </a>
+                <a
+                  target="_blank"
+                  href={gitHubCode}
+                  rel="noreferrer"
+                  title="GitHub Code"
+                  className="text-center bg-indigo text-white rounded-lg w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105 hover:bg-purple"
+                >
+                  <button>Code</button>
+                </a>
               </div>
             </div>
           ))}

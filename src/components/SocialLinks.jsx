@@ -10,7 +10,7 @@ function SocialLinks() {
           <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/stanislav-samozvan-ab9528290/",
       name: "LinkedIn",
     },
     {
@@ -20,7 +20,7 @@ function SocialLinks() {
           <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com",
+      href: "https://github.com/Samstas",
       name: "GitHub",
     },
     {
@@ -57,12 +57,11 @@ function SocialLinks() {
 
   return (
     <ul className="flex gap-2 my-3">
-      {links.map(({ id, child, name, href, download }) => (
+      {links.map(({ id, child, name, href }) => (
         <li key={id} className={`px-1  duration-200 hover:scale-110`}>
           <a
             href={href}
             className=" text-white hover:text-gray-400 duration-200 hover:scale-110"
-            // download={download}
             target="_blank"
             rel="noreferrer"
             title={name}

@@ -1,7 +1,5 @@
 import { FaFileDownload } from "react-icons/fa";
-import { HiArrowNarrowDown, HiArrowNarrowRight } from "react-icons/hi";
 // import HeroImage from "../assets/heroImage.jpg";
-import { Link } from "react-scroll";
 import SocialLinks from "./SocialLinks";
 
 const Home = () => {
