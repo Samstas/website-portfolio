@@ -5,13 +5,13 @@ import Skills from "./Skills,";
 
 const Portfolio = () => {
   const portfolios = [
-    {
-      id: 1,
-      name: "React Quiz",
-      src: quiz,
-      gitHubCode: "https://github.com/Samstas/react-quiz",
-      demoLink: "https://react-quiz-steel.vercel.app/",
-    },
+    // {
+    //   id: 1,
+    //   name: "React Quiz",
+    //   src: quiz,
+    //   gitHubCode: "https://github.com/Samstas/react-quiz",
+    //   demoLink: "https://react-quiz-steel.vercel.app/",
+    // },
     {
       id: 2,
       name: "React Pizza",
