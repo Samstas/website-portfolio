@@ -1,26 +1,34 @@
 import quiz from "../assets/portfolio/quiz.png";
 import pizza from "../assets/portfolio/pizza.png";
 import oasis from "../assets/portfolio/oasis.png";
+import accessories from "../assets/portfolio/accessories.png";
 import Skills from "./Skills,";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      name: "Apple Accessories",
+      src: accessories,
+      gitHubCode: "https://github.com/Samstas/apple_accessories",
+      demoLink: "https://apple-accessories-two.vercel.app/",
+    },
+    {
+      id: 2,
       name: "React Quiz",
       src: quiz,
       gitHubCode: "https://github.com/Samstas/react-quiz",
       demoLink: "https://react-quiz-steel.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       name: "React Pizza",
       src: pizza,
       gitHubCode: "https://github.com/Samstas/fast-react-pizza",
       demoLink: "https://fast-react-pizza-eosin-chi.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       name: "The Wild Oasis",
       src: oasis,
       gitHubCode: "https://github.com/Samstas/the-wild-oasis",
