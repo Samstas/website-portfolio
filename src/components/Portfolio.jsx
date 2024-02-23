@@ -1,7 +1,7 @@
 import quiz from "../assets/portfolio/quiz.png";
 import pizza from "../assets/portfolio/pizza.png";
 import oasis from "../assets/portfolio/oasis.png";
-import accessories from "../assets/portfolio/accessories.png";
+import accessories from "../assets/portfolio/apple_accessories.png";
 import Skills from "./Skills,";
 
 const Portfolio = () => {
@@ -37,7 +37,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <section name="portfolio" className="bg-lightgray text-gray pt-20">
+    <section name="portfolio" className="bg-lightgray text-gray pt-20 sm:h-screen">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-2 flex flex-col  items-center">
           <p className="text-4xl font-bold inline ">Portfolio</p>
