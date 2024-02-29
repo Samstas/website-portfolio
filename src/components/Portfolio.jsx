@@ -27,17 +27,20 @@ const Portfolio = () => {
       gitHubCode: "https://github.com/Samstas/fast-react-pizza",
       demoLink: "https://fast-react-pizza-eosin-chi.vercel.app/",
     },
-    {
-      id: 4,
-      name: "The Wild Oasis",
-      src: oasis,
-      gitHubCode: "https://github.com/Samstas/the-wild-oasis",
-      demoLink: "https://sam-the-wild-oasis.netlify.app",
-    },
+    // {
+    //   id: 4,
+    //   name: "The Wild Oasis",
+    //   src: oasis,
+    //   gitHubCode: "https://github.com/Samstas/the-wild-oasis",
+    //   demoLink: "https://sam-the-wild-oasis.netlify.app",
+    // },
   ];
 
   return (
-    <section name="portfolio" className="bg-lightgray text-gray pt-20 sm:h-screen">
+    <section
+      name="portfolio"
+      className="bg-lightgray text-gray pt-20 sm:h-screen"
+    >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-2 flex flex-col  items-center">
           <p className="text-4xl font-bold inline ">Portfolio</p>
