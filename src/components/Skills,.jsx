@@ -9,23 +9,35 @@ const Skills = () => {
     {
       id: 1,
       src: reactImage,
-      title: "React",
+      title: "React.js",
       style: "shadow-blue-600",
     },
     {
       id: 2,
-      src: javascript,
-      title: "JavaScript",
+      // src: reactImage,
+      title: "Next.js",
+      style: "shadow-blue-600",
+    },
+    // {
+    //   id: 3,
+    //   // src: javascript,
+    //   title: "JavaScript",
+    //   style: "shadow-yellow-500",
+    // },
+    {
+      id: 3,
+      // src: javascript,
+      title: "TypeScript",
       style: "shadow-yellow-500",
     },
     {
-      id: 3,
+      id: 4,
       src: query,
       title: "React Query",
       style: "shadow-gray-400",
     },
     {
-      id: 4,
+      id: 5,
       src: redux,
       title: "Redux Toolkit",
       style: "shadow-gray-400",
@@ -44,7 +56,7 @@ const Skills = () => {
     // },
 
     {
-      id: 5,
+      id: 6,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",

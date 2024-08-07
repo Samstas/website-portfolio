@@ -20,13 +20,13 @@ const Portfolio = () => {
       gitHubCode: "https://github.com/Samstas/fast-react-pizza",
       demoLink: "https://fast-react-pizza-eosin-chi.vercel.app/",
     },
-    {
-      id: 3,
-      name: "React Quiz",
-      src: quiz,
-      gitHubCode: "https://github.com/Samstas/react-quiz",
-      demoLink: "https://react-quiz-steel.vercel.app/",
-    },
+    // {
+    //   id: 3,
+    //   name: "React Quiz",
+    //   src: quiz,
+    //   gitHubCode: "https://github.com/Samstas/react-quiz",
+    //   demoLink: "https://react-quiz-steel.vercel.app/",
+    // },
     // {
     //   id: 4,
     //   name: "The Wild Oasis",
